@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://graphqlserver-production.up.railway.app/",
+  uri: "https://catstronauts-graphql-server-production-0cef.up.railway.app/",
   cache: new InMemoryCache(),
 });
 
